@@ -27,8 +27,9 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.monitor.R
-import com.example.monitor.ui.theme.Colors
-import com.example.monitor.ui.theme.MahleTheme
+import com.example.ui.common_composables.ResourceImage
+import com.example.ui.theme.Colors
+import com.example.ui.theme.MahleTheme
 
 @Composable
 fun MonitorHeader(

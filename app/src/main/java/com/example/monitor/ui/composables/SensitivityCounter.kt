@@ -24,12 +24,12 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.monitor.core.SpacerVertical
-import com.example.monitor.ui.theme.AppTypography
-import com.example.monitor.ui.theme.Colors
-import com.example.monitor.ui.theme.Colors.GreyMonitor
-import com.example.monitor.ui.theme.MahleTheme
-import com.example.monitor.ui.theme.UiConstants
+import com.example.ui.common_composables.SpacerVertical
+import com.example.ui.theme.AppTypography
+import com.example.ui.theme.Colors
+import com.example.ui.theme.Colors.GreyMonitor
+import com.example.ui.theme.MahleTheme
+import com.example.ui.theme.UiConstants
 
 @Composable
 fun SensitivityCounter(
@@ -49,12 +49,11 @@ fun SensitivityCounter(
                 modifier = modifier
                     .padding(UiConstants.screenMarginS)
                     .fillMaxWidth()
-                    .background(color = Color.White)
             ) {
                 Text(
                     text = "Power Assists",
                     modifier = Modifier.align(Alignment.Start),
-                    style = AppTypography.bodyMedium.copy(color = GreyMonitor)
+                    style = AppTypography.bodyMedium
                 )
 
                 SpacerVertical(UiConstants.componentSpacing)

@@ -25,8 +25,8 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.example.monitor.core.SpacerHorizontal
-import com.example.monitor.ui.theme.UiConstants
+import com.example.ui.common_composables.SpacerHorizontal
+import com.example.ui.theme.UiConstants
 import kotlinx.coroutines.launch
 
 @Composable

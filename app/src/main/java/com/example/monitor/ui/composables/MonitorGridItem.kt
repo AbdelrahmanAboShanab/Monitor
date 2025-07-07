@@ -17,10 +17,9 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.monitor.ui.GridItem
-import com.example.monitor.ui.theme.AppTypography
-import com.example.monitor.ui.theme.MahleTheme
-import com.example.monitor.ui.theme.monitorScreenTextColor
+import com.example.ui.theme.AppTypography
+import com.example.ui.theme.MahleTheme
+import com.example.ui.theme.monitorScreenTextColor
 
 @Composable
 fun MonitorGridItem(
@@ -28,7 +27,7 @@ fun MonitorGridItem(
     modifier: Modifier = Modifier
 ) {
     Card(
-        modifier = modifier.height(90.dp),
+        modifier = modifier.height(95.dp),
         elevation = CardDefaults.cardElevation(defaultElevation = 3.dp)
     ) {
         Column(
